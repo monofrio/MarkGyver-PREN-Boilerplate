@@ -1,0 +1,923 @@
+/*******************
+** Breakpoints
+********************/
+/********************
+** Media Queries
+********************/
+/********************
+** Fonts
+********************/
+/*********************
+  Primary Font
+  target: Headlines, Section Titles, tags, navigation, content type, secondary navigation, photo credit
+*********************/
+/* Old Font */
+/*********************
+  Subhead Font
+  Target: subtitles, header date
+*********************/
+/*********************
+  Secondary fonts target:
+  Subhead, body text, short-desc, resource-description, callout-content
+*********************/
+/* Old Font */
+/********************
+** Colors
+********************/
+/********************
+** Paths
+********************/
+/********************
+** Useful Vars
+********************/
+/********************
+**Spacing variables
+********************/
+/********************
+** Heights
+********************/
+/*******************
+** Breakpoints
+********************/
+/********************
+** Media Queries
+********************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/********************
+** Typography
+********************/
+/*******************
+** Breakpoints
+********************/
+/********************
+** Media Queries
+********************/
+/*******************
+** Breakpoints
+********************/
+/********************
+** Media Queries
+********************/
+/********************
+** Fonts
+********************/
+/*********************
+  Primary Font
+  target: Headlines, Section Titles, tags, navigation, content type, secondary navigation, photo credit
+*********************/
+/* Old Font */
+/*********************
+  Subhead Font
+  Target: subtitles, header date
+*********************/
+/*********************
+  Secondary fonts target:
+  Subhead, body text, short-desc, resource-description, callout-content
+*********************/
+/* Old Font */
+/********************
+** Colors
+********************/
+/********************
+** Paths
+********************/
+/********************
+** Useful Vars
+********************/
+/********************
+**Spacing variables
+********************/
+/********************
+** Heights
+********************/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #121212;
+}
+
+h1, .h1 {
+  margin: 0 0;
+  font-size: 32px;
+  font-size: 32/strip-unit(16)rem;
+  line-height: 32px;
+  line-height: 32/strip-unit(16)rem;
+}
+@media only screen and (min-width: 340px) {
+  h1, .h1 {
+    font-size: 40px;
+    font-size: 40/strip-unit(16)rem;
+    line-height: 42px;
+    line-height: 42/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  h1, .h1 {
+    font-size: 44px;
+    font-size: 44/strip-unit(16)rem;
+    line-height: 48px;
+    line-height: 48/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h1, .h1 {
+    font-size: 48px;
+    font-size: 48/strip-unit(16)rem;
+    line-height: 52px;
+    line-height: 52/strip-unit(16)rem;
+  }
+}
+
+h2, .h2 {
+  font-size: 24px;
+  font-size: 24/strip-unit(16)rem;
+  line-height: 24px;
+  line-height: 24/strip-unit(16)rem;
+}
+@media only screen and (min-width: 750px) {
+  h2, .h2 {
+    font-size: 28px;
+    font-size: 28/strip-unit(16)rem;
+    line-height: 32px;
+    line-height: 32/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h2, .h2 {
+    font-size: 32px;
+    font-size: 32/strip-unit(16)rem;
+    line-height: 38px;
+    line-height: 38/strip-unit(16)rem;
+  }
+}
+
+h3, .h3 {
+  font-size: 22px;
+  font-size: 22/strip-unit(16)rem;
+  line-height: 20px;
+  line-height: 20/strip-unit(16)rem;
+}
+@media only screen and (min-width: 750px) {
+  h3, .h3 {
+    font-size: 24px;
+    font-size: 24/strip-unit(16)rem;
+    line-height: 24px;
+    line-height: 24/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h3, .h3 {
+    font-size: 28px;
+    font-size: 28/strip-unit(16)rem;
+    line-height: 28px;
+    line-height: 28/strip-unit(16)rem;
+  }
+}
+
+h4, .h4 {
+  font-size: 20px;
+  font-size: 20/strip-unit(16)rem;
+  line-height: 20px;
+  line-height: 20/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  h4, .h4 {
+    font-size: 24px;
+    font-size: 24/strip-unit(16)rem;
+    line-height: 24px;
+    line-height: 24/strip-unit(16)rem;
+  }
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-size: 18/strip-unit(16)rem;
+  line-height: 18px;
+  line-height: 18/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  h5, .h5 {
+    font-size: 22px;
+    font-size: 22/strip-unit(16)rem;
+    line-height: 22px;
+    line-height: 22/strip-unit(16)rem;
+  }
+}
+
+h6, .h6 {
+  font-size: 16px;
+  font-size: 16/strip-unit(16)rem;
+  line-height: 18px;
+  line-height: 18/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  h6, .h6 {
+    font-size: 18px;
+    font-size: 18/strip-unit(16)rem;
+    line-height: 20px;
+    line-height: 20/strip-unit(16)rem;
+  }
+}
+
+.f-title {
+  margin-top: -10px;
+}
+
+.f-heading, .f-title {
+  font-family: "titillium-web", "Arial Narrow", Arial, Lucida Grande, sans-serif;
+  font-weight: 500;
+}
+.f-heading.normal, .f-title.normal {
+  font-weight: 400;
+}
+.f-heading.medium, .f-title.medium {
+  font-weight: 600;
+}
+.f-heading.heavy, .f-title.heavy {
+  font-weight: 700;
+}
+
+.f-subtitle, .f-subtitle p {
+  color: #687681;
+  font-family: "roboto-slab", Georgia, serif;
+  font-style: italic;
+  font-size: 18px;
+  font-size: 18/strip-unit(16)rem;
+  line-height: 26px;
+  line-height: 26/strip-unit(16)rem;
+}
+@media only screen and (min-width: 750px) {
+  .f-subtitle, .f-subtitle p {
+    font-size: 20px;
+    font-size: 20/strip-unit(16)rem;
+    line-height: 22px;
+    line-height: 22/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .f-subtitle, .f-subtitle p {
+    font-size: 22px;
+    font-size: 22/strip-unit(16)rem;
+    line-height: 26px;
+    line-height: 26/strip-unit(16)rem;
+  }
+}
+
+.basic-header .date {
+  font-family: "roboto-slab", Georgia, serif;
+}
+
+.paragraph-text-only .f-title, .landing-header .f-title {
+  font-size: 32px;
+  font-size: 32/strip-unit(16)rem;
+  line-height: 36px;
+  line-height: 36/strip-unit(16)rem;
+  font-weight: 600;
+}
+@media only screen and (min-width: 750px) {
+  .paragraph-text-only .f-title, .landing-header .f-title {
+    font-size: 36px;
+    font-size: 36/strip-unit(16)rem;
+    line-height: 40px;
+    line-height: 40/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .paragraph-text-only .f-title, .landing-header .f-title {
+    font-size: 40px;
+    font-size: 40/strip-unit(16)rem;
+    line-height: 44px;
+    line-height: 44/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .paragraph-text-only .f-subtitle, .landing-header .f-subtitle {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}
+.paragraph-text-only .f-subtitle, .paragraph-text-only .f-subtitle p, .landing-header .f-subtitle, .landing-header .f-subtitle p {
+  color: #2F3031;
+  font-family: "titillium-web", "Arial Narrow", Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  margin-top: 10px;
+  font-size: 17px;
+  font-size: 17/strip-unit(16)rem;
+  line-height: 26px;
+  line-height: 26/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  .paragraph-text-only .f-subtitle, .paragraph-text-only .f-subtitle p, .landing-header .f-subtitle, .landing-header .f-subtitle p {
+    font-size: 18px;
+    font-size: 18/strip-unit(16)rem;
+    line-height: 28px;
+    line-height: 28/strip-unit(16)rem;
+    margin-top: 20px;
+  }
+}
+
+.hero-full.initiative .f-subtitle, .hero-full.initiative .f-subtitle p {
+  color: #FFFFFF;
+}
+
+.f-sub-text, .f-sub-text p {
+  color: #687681;
+  font-weight: 500;
+  font-size: 17px;
+  font-size: 17/strip-unit(16)rem;
+  line-height: 19px;
+  line-height: 19/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  .f-sub-text, .f-sub-text p {
+    font-size: 16px;
+    font-size: 16/strip-unit(16)rem;
+    line-height: 18px;
+    line-height: 18/strip-unit(16)rem;
+  }
+}
+
+.body-text h1, .body-text h2, .body-text h3, .body-text h4, .body-text h5, .body-text h6,
+.body-text .h1, .body-text .h2, .body-text .h3, .body-text .h4, .body-text .h5, .body-text .h6 {
+  font-weight: 700;
+  font-family: "titillium-web", "Arial Narrow", Arial, Lucida Grande, sans-serif;
+}
+.body-text h1:not(:first-child), .body-text h2:not(:first-child), .body-text h3:not(:first-child), .body-text h4:not(:first-child), .body-text h5:not(:first-child), .body-text h6:not(:first-child),
+.body-text .h1:not(:first-child), .body-text .h2:not(:first-child), .body-text .h3:not(:first-child), .body-text .h4:not(:first-child), .body-text .h5:not(:first-child), .body-text .h6:not(:first-child) {
+  margin-top: 3rem;
+}
+.body-text h1 + p, .body-text h2 + p, .body-text h3 + p, .body-text h4 + p, .body-text h5 + p, .body-text h6 + p,
+.body-text .h1 + p, .body-text .h2 + p, .body-text .h3 + p, .body-text .h4 + p, .body-text .h5 + p, .body-text .h6 + p {
+  margin-top: 0.3rem;
+}
+.body-text h1, .body-text h2 {
+  margin-bottom: 20px;
+}
+.body-text p, .body-text ol, .body-text ul {
+  font-family: "roboto-slab", Georgia, serif;
+  font-size: 18px;
+  font-size: 18/strip-unit(16)rem;
+  line-height: 32.4px;
+  line-height: 32.4/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1024px) {
+  .body-text p, .body-text ol, .body-text ul {
+    font-size: 19px;
+    font-size: 19/strip-unit(16)rem;
+    line-height: 34.2px;
+    line-height: 34.2/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .body-text p, .body-text ol, .body-text ul {
+    font-size: 20px;
+    font-size: 20/strip-unit(16)rem;
+    line-height: 36px;
+    line-height: 36/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .body-text p, .body-text ol, .body-text ul {
+    font-size: 22px;
+    font-size: 22/strip-unit(16)rem;
+    line-height: 39.6px;
+    line-height: 39.6/strip-unit(16)rem;
+  }
+}
+.body-text p + ol, .body-text p + ul,
+.body-text ol + p, .body-text ul + p,
+.body-text ul + ol, .body-text ol + ul,
+.body-text ul + ul, .body-text ol + ol, .body-text li + li {
+  margin-top: 10px;
+}
+@media only screen and (min-width: 750px) {
+  .body-text p + ol, .body-text p + ul,
+.body-text ol + p, .body-text ul + p,
+.body-text ul + ol, .body-text ol + ul,
+.body-text ul + ul, .body-text ol + ol, .body-text li + li {
+    margin-top: 20px;
+  }
+}
+.body-text ol, .body-text ul {
+  list-style-type: none;
+  margin: 10px 0;
+  margin-left: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .body-text ol, .body-text ul {
+    margin: 20px 0;
+    margin-left: 40px;
+  }
+}
+.body-text ol li, .body-text ul li {
+  position: relative;
+  padding-left: 25px;
+}
+.body-text ol li:before, .body-text ul li:before {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.body-text ul li:before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  top: 1rem;
+  background-color: #2F3031;
+}
+.body-text ol {
+  counter-reset: ol;
+}
+.body-text ol li:before {
+  line-height: 36px;
+  line-height: 36/strip-unit(16)rem;
+  counter-increment: ol;
+  content: "" counter(ol) ".";
+}
+.body-text p a, .body-text li a {
+  font-weight: 100;
+  color: #0073af;
+  background: linear-gradient(rgba(0, 115, 175, 0), rgba(0, 115, 175, 0));
+  background-size: 100% 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 100% 87%;
+  text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+}
+.body-text p a:hover, .body-text li a:hover {
+  background: linear-gradient(#0073af, #0073af);
+  background-size: 100% 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 100% 87%;
+}
+.body-text.text-has-drop-cap p:first-child:first-letter {
+  font-family: "titillium-web", "Arial Narrow", Arial, Lucida Grande, sans-serif;
+  font-weight: 500;
+  float: left;
+  line-height: 1;
+  margin: -0.117em 0.05em -0.2em 0em;
+  font-size: 4em;
+}
+@media only screen and (min-width: 750px) {
+  .body-text.text-has-drop-cap p:first-child:first-letter {
+    font-size: 6.6em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .body-text.text-has-drop-cap p:first-child:first-letter {
+    font-size: 8.8em;
+  }
+}
+.body-text.text-has-endmark p:last-of-type:after {
+  padding-left: 10px;
+  background-position: left 40%;
+  background-image: url(../images/logos/icon_bridge_hope.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-size: 60%;
+  width: 27px;
+  height: 16px;
+}
+.body-text blockquote {
+  font-style: italic;
+  color: #687681;
+  padding-left: 20px;
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+}
+.body-text blockquote:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  content: "";
+  background-color: #E0E0E1;
+}
+@media only screen and (min-width: 750px) {
+  .body-text blockquote {
+    padding-left: 20px;
+    margin: 40px auto;
+  }
+}
+.body-text blockquote p {
+  font-size: 18px;
+  font-size: 18/strip-unit(16)rem;
+}
+@media only screen and (min-width: 1250px) {
+  .body-text blockquote p {
+    font-size: 24px;
+    font-size: 24/strip-unit(16)rem;
+  }
+}
+
+.callout-body-text {
+  display: block;
+  margin: 15px;
+}
+@media only screen and (min-width: 750px) {
+  .callout-body-text {
+    margin: 10px 0;
+    font-size: 20px;
+    font-size: 20/strip-unit(16)rem;
+  }
+}
+.callout-body-text p {
+  font-family: "titillium-web", "Arial Narrow", Arial, Lucida Grande, sans-serif;
+  font-size: 18px;
+  font-size: 18/strip-unit(16)rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+}
+@media only screen and (min-width: 750px) {
+  .uppercase {
+    letter-spacing: 0.25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .uppercase {
+    letter-spacing: 0.5px;
+  }
+}
+
+.job-title-text {
+  line-height: 16px;
+  line-height: 16/strip-unit(16)rem;
+  font-size: 13px;
+  font-size: 13/strip-unit(16)rem;
+}
+@media only screen and (min-width: 340px) {
+  .job-title-text {
+    line-height: 18px;
+    line-height: 18/strip-unit(16)rem;
+    font-size: 15px;
+    font-size: 15/strip-unit(16)rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .job-title-text {
+    line-height: 20px;
+    line-height: 20/strip-unit(16)rem;
+    font-size: 16px;
+    font-size: 16/strip-unit(16)rem;
+  }
+}
+
+/* Global *
+ */
+:root {
+  --gray: #C4C4C4;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(#ffffff, #c0c0c0);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+
+nav {
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: deepskyblue;
+  text-decoration: underline;
+}
+nav h2 {
+  color: white;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+header {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 500px;
+}
+
+/*******************
+** Breakpoints
+********************/
+/********************
+** Media Queries
+********************/
+/* Student */
+.studentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.student {
+  background-color: var(--gray);
+  padding: 10px;
+  margin-right: 10px;
+  border: solid thin #333333;
+  border-radius: 5px;
+}
+.student img {
+  width: 200px;
+  height: 200px;
+}
+.student .student-name {
+  padding: 10px 0;
+}
+.student .student-name a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.student:last-child {
+  margin-right: 0;
+}
+
+.studentView {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.studentView figure {
+  padding: 20px;
+}
+.studentView .student-body {
+  display: flex;
+  flex-direction: row;
+}
+.studentView .student-info div {
+  padding-top: 10px;
+}
+.studentView .student-actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+.studentView .student-actions .btn-delete {
+  margin-left: 20px;
+}
+
+/* Campus */
+.campusList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.campus {
+  display: flex;
+  position: relative;
+  background-color: var(--gray);
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: solid thin #333333;
+  max-width: 390px;
+  min-width: 390px;
+  min-height: 130px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.campus:last-child {
+  margin-right: 0;
+}
+.campus .campusActions {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.campus h2 {
+  min-width: 250px;
+}
+.campus figure {
+  max-width: 134px;
+  width: 100%;
+  max-height: 109px;
+  align-content: center;
+  align-items: center;
+}
+.campus figure img {
+  max-width: 134px;
+  width: 100%;
+  max-height: 109px;
+}
+.campus a {
+  text-decoration: none;
+}
+.campus .campus-body {
+  margin-left: 10px;
+}
+.campus .campus-info {
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+
+/* Campus Info */
+.campusInfo {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+}
+.campusInfo header {
+  align-items: flex-start;
+}
+.campusInfo h2 {
+  margin: 0 0 15px 0;
+}
+.campusInfo img {
+  max-width: 300px;
+  width: 100%;
+}
+.campusInfo .campus-body {
+  display: flex;
+  justify-content: space-between;
+}
+.campusInfo .campus-desc {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  line-height: 1.3rem;
+}
+.campusInfo .btn-delete {
+  margin-left: 20px;
+}
+
+.campus-actions {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+.campus-actions .btn-delete {
+  margin-left: 20px;
+}
+
+.campus-studentListing {
+  margin-top: 50px;
+  flex-direction: row;
+}
+.campus-studentListing button.btn-delete {
+  margin-left: 20px;
+}
+.campus-studentListing .btn {
+  margin-top: 0;
+}
+.campus-studentListing h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Buttons */
+.btn, button {
+  color: #000;
+  background-color: #0dcaf0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  /*color: #212529;*/
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid;
+  border-color: #0dcaf0;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-top: 20px;
+}
+
+.btn-info:hover {
+  color: #000;
+  background-color: #31d2f2;
+  border-color: #25cff2;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-edit {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+form {
+  flex-direction: column;
+}
+form .inputField, form .textareaField {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 500px;
+}
+form textarea {
+  height: 500px;
+}
+form label {
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 5px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
